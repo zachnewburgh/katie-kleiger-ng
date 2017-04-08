@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+}
+
+html {
+    background-color: mediumpurple;
+}
+
+@font-face {
+  font-family: brandonBold;
+  src: url(assets/fonts/brandon/Brandon_bld.otf);
+}
+
+@font-face {
+  font-family: brandonReg;
+  src: url(assets/fonts/brandon/Brandon_reg.otf);
+}
