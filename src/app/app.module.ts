@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AboutComponent } from './about/about.component';
+import { HeadshotsComponent } from './media/headshots/headshots.component';
 import { LogoComponent } from './shared/logo/logo.component';
 import { NavComponent } from './shared/nav/nav.component';
 import { WelcomeComponent } from './welcome/welcome.component';
@@ -15,6 +16,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
   declarations: [
     AppComponent,
     AboutComponent,
+    HeadshotsComponent,
     LogoComponent,
     NavComponent,
     WelcomeComponent
