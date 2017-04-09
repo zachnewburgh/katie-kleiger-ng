@@ -14,7 +14,7 @@ export class NavComponent implements OnInit {
   links = {
       home: [],
       about: [],
-      media: ['headshots', 'resume', 'stills', 'reels', 'voiceover'],
+      media: ['headshots', 'resume', 'stills', 'videos'],
       news: [],
       contact: []
     };
