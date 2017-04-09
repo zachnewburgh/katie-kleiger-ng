@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { HeadshotsComponent } from './media/headshots/headshots.component';
 import { ResumeComponent } from './media/resume/resume.component';
 import { StillsComponent } from './media/stills/stills.component';
+import { VideosComponent } from './media/videos/videos.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 
 const appRoutes: Routes = [
@@ -12,6 +13,7 @@ const appRoutes: Routes = [
   { path: 'headshots', component: HeadshotsComponent },
   { path: 'resume', component: ResumeComponent },
   { path: 'stills', component: StillsComponent },
+  { path: 'videos', component: VideosComponent },
   { path: '', redirectTo: '/', pathMatch: 'full'},
   { path: '**', component: WelcomeComponent }
 ];

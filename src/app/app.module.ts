@@ -12,6 +12,7 @@ import { ResumeComponent } from './media/resume/resume.component';
 import { LogoComponent } from './shared/logo/logo.component';
 import { NavComponent } from './shared/nav/nav.component';
 import { StillsComponent } from './media/stills/stills.component';
+import { VideosComponent } from './media/videos/videos.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
@@ -23,6 +24,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
     NavComponent,
     ResumeComponent,
     StillsComponent,
+    VideosComponent,
     WelcomeComponent
   ],
   imports: [
