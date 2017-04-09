@@ -11,6 +11,7 @@ import { HeadshotsComponent } from './media/headshots/headshots.component';
 import { ResumeComponent } from './media/resume/resume.component';
 import { LogoComponent } from './shared/logo/logo.component';
 import { NavComponent } from './shared/nav/nav.component';
+import { NewsComponent } from './news/news.component';
 import { StillsComponent } from './media/stills/stills.component';
 import { VideosComponent } from './media/videos/videos.component';
 import { WelcomeComponent } from './welcome/welcome.component';
@@ -22,6 +23,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
     HeadshotsComponent,
     LogoComponent,
     NavComponent,
+    NewsComponent,
     ResumeComponent,
     StillsComponent,
     VideosComponent,
