@@ -9,7 +9,7 @@
         <li *ngFor="let nestedLink of links[headerLink]">
           <a id="{{nestedLink}}" [style.color]="color" (mouseover)="toggleColor(nestedLink)"
                                                        (mouseout)="toggleColor(nestedLink)"
-                                                       routerLink="/{{nestedLink}}"
+                                                       routerLink="/{{headerLink}}/{{nestedLink}}"
                                                        routerLinkActive="active">{{nestedLink}}</a>
         </li>
       </ul>

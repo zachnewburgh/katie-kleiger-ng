@@ -11,11 +11,12 @@ import { WelcomeComponent } from './welcome/welcome.component';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
-  { path: 'headshots', component: HeadshotsComponent },
+  { path: 'home', redirectTo: '/' },
   { path: 'news', component: NewsComponent },
-  { path: 'resume', component: ResumeComponent },
-  { path: 'stills', component: StillsComponent },
-  { path: 'videos', component: VideosComponent },
+  { path: 'media/headshots', component: HeadshotsComponent },
+  { path: 'media/resume', component: ResumeComponent },
+  { path: 'media/stills', component: StillsComponent },
+  { path: 'media/videos', component: VideosComponent },
   { path: '', redirectTo: '/', pathMatch: 'full'},
   { path: '**', component: WelcomeComponent }
 ];
