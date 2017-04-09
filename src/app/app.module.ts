@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AboutComponent } from './about/about.component';
 import { HeadshotsComponent } from './media/headshots/headshots.component';
+import { ResumeComponent } from './media/resume/resume.component';
 import { LogoComponent } from './shared/logo/logo.component';
 import { NavComponent } from './shared/nav/nav.component';
 import { WelcomeComponent } from './welcome/welcome.component';
@@ -19,6 +20,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
     HeadshotsComponent,
     LogoComponent,
     NavComponent,
+    ResumeComponent,
     WelcomeComponent
   ],
   imports: [
