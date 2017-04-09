@@ -11,6 +11,7 @@ import { HeadshotsComponent } from './media/headshots/headshots.component';
 import { ResumeComponent } from './media/resume/resume.component';
 import { LogoComponent } from './shared/logo/logo.component';
 import { NavComponent } from './shared/nav/nav.component';
+import { StillsComponent } from './media/stills/stills.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
@@ -21,6 +22,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
     LogoComponent,
     NavComponent,
     ResumeComponent,
+    StillsComponent,
     WelcomeComponent
   ],
   imports: [
