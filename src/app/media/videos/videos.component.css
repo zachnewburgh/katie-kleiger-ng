@@ -1,5 +1,13 @@
 .container {
     background-color: white;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
+}
+
+.container-videos {
+    text-align: center;
+}
+
+.video {
+    padding: 2%;
 }
