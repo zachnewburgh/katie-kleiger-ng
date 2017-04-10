@@ -1,10 +1,12 @@
 <div>
   <ul>
     <li *ngFor="let headerLink of headerLinks">
-      <a id="{{headerLink}}" [style.color]="color" (mouseover)="toggleColor(headerLink)"
-                                                   (mouseout)="toggleColor(headerLink)"
-                                                   routerLink="/{{headerLink}}"
-                                                   routerLinkActive="active">{{headerLink}}</a>
+      <a id="{{headerLink}}" [style.color]="color"
+                             [style.pointer-events]="links[headerLink].length > 0 ? 'none' : 'auto'"
+                             (mouseover)="toggleColor(headerLink)"
+                             (mouseout)="toggleColor(headerLink)"
+                             routerLink="/{{headerLink}}"
+                             routerLinkActive="active">{{headerLink}}</a>
       <ul *ngIf="links[headerLink].length > 0" [style.background-color]="background">
         <li *ngFor="let nestedLink of links[headerLink]">
           <a id="{{nestedLink}}" [style.color]="color" (mouseover)="toggleColor(nestedLink)"
