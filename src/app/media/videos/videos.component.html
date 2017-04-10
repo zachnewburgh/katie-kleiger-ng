@@ -2,14 +2,14 @@
     <nav [color]="'black'" [hover]="'grey'" [background]="'white'"></nav>
     <br><br><br><br><br><br><br>
     <div class="container-videos">
-        <div class="video">
-            <iframe src="https://player.vimeo.com/video/211348128" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>
-        <div class="video">
-            <iframe src="https://player.vimeo.com/video/149598220" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>
-        <div class="video">
-            <iframe src="https://player.vimeo.com/video/146698813" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div class="video" *ngFor="let video of videos">
+            <iframe [src]="sanitizer.bypassSecurityTrustResourceUrl(video)"
+                    width="640"
+                    height="360"
+                    frameborder="0"
+                    webkitallowfullscreen
+                    mozallowfullscreen
+                    allowfullscreen></iframe>
         </div>
     </div>
 </div>
